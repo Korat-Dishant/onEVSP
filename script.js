@@ -1,4 +1,4 @@
-function addressAutocomplete(containerElement, callback, options) { 
+function addressAutocomplete(containerElement, callback, options) {
 
     const MIN_ADDRESS_LENGTH = 3;
     const DEBOUNCE_DELAY = 300;
@@ -373,3 +373,12 @@ fetch(`https://api.geoapify.com/v1/routing?waypoints=${fromWaypoint.join(',')}|$
 }, error => console.log(err));
 
 }
+
+
+
+
+
+document.getElementById("para2").onclick = function() {  
+  var url2 = `https://www.google.com/maps/dir/?api=1&origin=${Slatitude},${Slongitude}&destination=${Dlatitude},${Dlongitude}`;
+  window.open(url2, '_blank');
+};

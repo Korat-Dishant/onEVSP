@@ -102,3 +102,14 @@ body {
     background-color: #555555;
     color: white;
   }
+
+  .button6 {
+    background-color: lightgreen;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .button6:hover {
+    background-color: darkgreen;
+    color: white;
+  }
